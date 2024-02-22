@@ -1,3 +1,26 @@
-p{
+/* p{
     background-color: rgb(52, 165, 42);
+} */
+
+
+.DIV1{
+    background-color: rgb(208, 255, 0);
+    padding: 50px;
+    margin: 30px;
+    border: solid black;
+
+}
+
+#div2{
+    background-color: rgb(78, 19, 90);
+    padding: 50px;
+    margin: 30px;
+}
+
+.container{
+    background-color: rgb(123, 255, 0);
+    padding: 50px;
+    margin: 30px;
+    border: solid brown;
+
 }

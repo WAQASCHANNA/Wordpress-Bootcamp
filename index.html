@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css"> 
     
     <!-- below here is an internal css applied  -->
-    <style> h1 { background-color: blueviolet;
+    <!-- <style> h1 { background-color: blueviolet;
     }
-    </style>
+    </style> -->
     
 </head>
 <body>
@@ -143,3 +143,108 @@
     View More
   </button>
   </a>
+
+  
+  <!-- Div occupies whole width of the line -->
+  <!-- div always starts with newline -->
+  
+  <h1>
+<div style="background-color: rgb(90, 90, 90);"> First Div of first webpage</div>
+  </h1>
+Lrem spam <div> this is lorem spam</div> of this div
+
+
+<!-- span occipies space according to the text -->
+  <h1>
+    <span style="background-color: rgb(196, 79, 128);">
+         First Div of first webpage</span>
+  </h1>
+
+  <p> This is <span style="color: bisque;">Not starting in new line </span> in the span </p> <br>
+
+  <div>
+<h1>Div number 1</h1>
+<p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+<p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+  </div>
+
+  <div>
+<h1>Div number 1</h1>
+<p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+<p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+      </div>
+  
+  <div>
+<h1>Div number 1</h1>
+<p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+<p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+  </div>
+
+<!-- Here the external css applying -->
+<div class="container"> 
+<div class="DIV1">
+   <h1>Div number 1</h1>
+    <p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+    <p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+      </div>
+    
+      <div id="div2">
+    <h1>Div number 2</h1>
+    <p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+    <p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+          </div>
+      
+      <div class="DIV1">
+    <h1>Div number 3</h1>
+    <p> This is 1st paragraph of fisrt div.This is paragraph of fisrt div.</p>
+    <p> This is 2nd paragraph of fisrt div.This is paragraph of fisrt div.</p>
+      </div>
+
+    </div> <br> <br>
+
+<!-- form Sectoin -->
+
+<form action="">
+    <label for="fname"> First Name</label>
+    <input type="text" id="fname" name="name"> <br> <br>
+
+    <label for="lname"> First Name</label>
+    <input type="text" id="lname" name="name"> <br>
+
+
+</form>
+<br> <br>
+
+<!-- Form 2 -->
+
+<form action="" method="">
+    <label for="fname">First Name</label>
+    <input type="text" name="name" id="fname"><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" name="name" id="lname"><br>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="phone">Tel. Number</label>
+    <input type="tel" name="phone" id="phone"><br>
+
+    <label for="bday">Date of Birth</label>
+    <input type="date" id="bday" name="Birthday"><br>
+
+    <label for="quantity">Qty.</label>
+    <input type="number"id="quantity" name="quantity" min="1" value="1"><br>
+
+    <label>Size:</label><br>
+    <input type="radio" name="size" value="S"> Small
+    <input type="radio" name="size" value="M"> Medium
+    <input type="radio" name="size" value="L"> Large <br>
+
+    <label for="file"><i>Please submit your passport size photo</i></label> <br>
+    <input type="file" id="file" name="imagefile" accept="image/png, image/jpeg"> <br><br>
+
+    <input type="reset">
+    <input type="submit">
+
+</form>
